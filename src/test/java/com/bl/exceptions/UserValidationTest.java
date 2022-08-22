@@ -43,4 +43,11 @@ class UserValidationTest {
         Assertions.assertTrue(userValidation.validPasswordRule4("Bhagavandas2@"));
     }
 
+    //testing the given input is true or not using assertions
+    @Test
+    public void validEmailSample() {
+        UserValidation userValidation = new UserValidation();
+        Assertions.assertTrue(userValidation.isvalidemailSamples("das@yahoo.com"));
+    }
+
 }
