@@ -18,4 +18,11 @@ public class UserValidation {
         Matcher matcher = pattern.matcher(lastName);
         return matcher.matches();
     }
+
+    //validating the email has 3 mandatory parts (abc, bl, co)
+    public boolean validEmail(String email) {
+        Pattern pattern = Pattern.compile("[abc+](.+)?[a-z](@)?[bl+](.+)[co+](.+)[a-z]{2}$");
+        Matcher matcher = pattern.matcher(email);
+        return matcher.matches();
+    }
 }
