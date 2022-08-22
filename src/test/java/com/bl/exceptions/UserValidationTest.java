@@ -29,4 +29,11 @@ class UserValidationTest {
         Assertions.assertTrue(userValidation.validPasswordRule2("Bhagavandas"));
     }
 
+    //testing the given input is true or not using assertions
+    @Test
+    public void validPwdRule3() {
+        UserValidation userValidation = new UserValidation();
+        Assertions.assertTrue(userValidation.validPasswordRule3("Bhagavandas2"));
+    }
+
 }
