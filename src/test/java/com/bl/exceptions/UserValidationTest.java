@@ -15,4 +15,12 @@ class UserValidationTest {
 
     }
 
+    //testing the given input is true or not using assertions
+    @Test
+    public void validLastName() {
+        UserValidation userValidation = new UserValidation();
+        Assertions.assertTrue(userValidation.validLastName("Bhagavan"));
+
+    }
+
 }

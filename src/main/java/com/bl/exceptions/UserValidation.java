@@ -11,4 +11,11 @@ public class UserValidation {
         Matcher matcher = pattern.matcher(fName);
         return matcher.matches();
     }
+
+    //validating the last name has one Caps and minimum 3 characters
+    public boolean validLastName(String lastName) {
+        Pattern pattern = Pattern.compile("^[A-Z]{1}[a-z]{3,}$");
+        Matcher matcher = pattern.matcher(lastName);
+        return matcher.matches();
+    }
 }
