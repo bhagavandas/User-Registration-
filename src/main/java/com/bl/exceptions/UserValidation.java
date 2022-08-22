@@ -32,4 +32,12 @@ public class UserValidation {
         Matcher matcher = pattern.matcher(mobile);
         return matcher.matches();
     }
+
+    // validating the password that has minimum 8 characters
+    public boolean validPassword(String pwd) {
+        Pattern pattern = Pattern.compile("[a-z]{8,}$");
+
+        Matcher matcher = pattern.matcher(pwd);
+        return matcher.matches();
+    }
 }

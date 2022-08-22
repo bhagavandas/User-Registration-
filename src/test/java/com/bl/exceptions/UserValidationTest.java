@@ -17,9 +17,9 @@ class UserValidationTest {
 
     //testing the given input is true or not using assertions
     @Test
-    public void validMobile() {
+    public void validPwd() {
         UserValidation userValidation = new UserValidation();
-        Assertions.assertTrue(userValidation.validMobile("91 9010626122"));
+        Assertions.assertTrue(userValidation.validPassword("bhagavandas"));
 
     }
 
