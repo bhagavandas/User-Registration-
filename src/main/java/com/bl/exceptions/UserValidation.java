@@ -25,4 +25,11 @@ public class UserValidation {
         Matcher matcher = pattern.matcher(email);
         return matcher.matches();
     }
+
+    //validating the Mobile has country code followed by space and 10 digit number
+    public boolean validMobile(String mobile) {
+        Pattern pattern = Pattern.compile("[0-9]{2}\\s{1,}[0-9]{10}$");
+        Matcher matcher = pattern.matcher(mobile);
+        return matcher.matches();
+    }
 }
