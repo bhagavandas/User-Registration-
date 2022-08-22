@@ -20,7 +20,13 @@ class UserValidationTest {
     public void validPwd() {
         UserValidation userValidation = new UserValidation();
         Assertions.assertTrue(userValidation.validPassword("bhagavandas"));
+    }
 
+    //testing the given input is true or not using assertions
+    @Test
+    public void validPwdRule2() {
+        UserValidation userValidation = new UserValidation();
+        Assertions.assertTrue(userValidation.validPasswordRule2("Bhagavandas"));
     }
 
 }
