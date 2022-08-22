@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bl.exceptions.TestValidateUserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-22T02:44:01" hostname="LAPTOP-PG23OKAD" time="0.014">
+  <properties/>
+  <testcase name="phoneNumHappy()" classname="com.bl.exceptions.TestValidateUserTest" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
