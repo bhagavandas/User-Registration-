@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.exceptions.UserValidationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-22T02:01:55" hostname="LAPTOP-PG23OKAD" time="0.017">
+<testsuite name="com.bl.exceptions.UserValidationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-22T02:04:36" hostname="LAPTOP-PG23OKAD" time="0.024">
   <properties/>
-  <testcase name="validPwdRule3()" classname="com.bl.exceptions.UserValidationTest" time="0.017"/>
+  <testcase name="validPwdRule4()" classname="com.bl.exceptions.UserValidationTest" time="0.024"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
