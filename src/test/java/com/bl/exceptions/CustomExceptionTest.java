@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 
 
 class CustomExceptionTest {
+    //validating the firstname throwing custom exception
     @Test
     public void validFirstName() throws CustomInvalidException {
         CustomException customException = new CustomException();
@@ -17,6 +18,8 @@ class CustomExceptionTest {
         }
     }
 
+
+//validating the lastname throwing custom exception
     @Test
     public void validLastName() throws CustomInvalidException {
         CustomException customException = new CustomException();
@@ -27,6 +30,8 @@ class CustomExceptionTest {
         }
     }
 
+
+    //validating the email throwing custom exception
     @Test
     public void validEmail() throws CustomInvalidException {
         CustomException customException = new CustomException();
@@ -37,6 +42,7 @@ class CustomExceptionTest {
         }
     }
 
+    //validating the mobile number throwing custom exception
     @Test
     public void validMobile() throws CustomInvalidException {
         CustomException customException = new CustomException();
@@ -47,10 +53,12 @@ class CustomExceptionTest {
         }
     }
 
+
+    //validating the password throwing custom exception
     @Test
     public void validPassword() throws CustomInvalidException {
         CustomException customException = new CustomException();
-        if (customException.validPassword("Bhagavan2@")) {
+        if (customException.validPassword("bhagavan2@")) {
             System.out.println("Valid");
         } else {
              throw new CustomInvalidException("invalid mobile number");
