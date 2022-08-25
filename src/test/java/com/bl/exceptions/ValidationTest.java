@@ -7,7 +7,7 @@ interface IValidation{
 
 }
 class ValidationTest {
-    //Validating of first name
+    /*Validating first name, lastname, email, mobile number, password using lambda expressions*/
     @Test
     public void validateFirstName(){
     String fname = "Bhagavan";
@@ -25,6 +25,7 @@ class ValidationTest {
         System.out.println("Password: " + pwd.matches("[A-Z]{1}[a-z]{8,}[0-9]{1,}(?=.*[!@#&()–[{}]:;',?/*~$^+=<>]).$"));
 
         return false;
+        /* if the input is valid, it returns true otherwise it returns false */
     };
 
             d.name();
